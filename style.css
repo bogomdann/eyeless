@@ -565,6 +565,9 @@ margin: 3%;
 	}
 
 	@media screen and (max-width: 390px) {
+		.header-navigation__item{
+			font-size: 15px;
+		}
 		.header-navigation__item:nth-of-type(1) {
 			display: none;
 		}
