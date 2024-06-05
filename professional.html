@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <script async type="text/javascript" src="script.js"></script>
+    <script async type="text/javascript" src="scriptPopup.js"></script>
+    <script async type="text/javascript" src="scriptPopup2.js"></script>
+    <script async type="text/javascript" src="scriptPopupReg.js"></script>
+    <style>
+		@font-face {
+			font-family: Oswald;
+			src: url("fonts/Oswald.ttf");
+		}
+	</style>
+    <title>Магазин "Autobuy"</title>
+</head>
+<body>
+    <div class="wrapper">
+            <div class="announcment">
+                <div class="logo"><img src="img/logo.png"></div>
+            </div>
+            <header class="header">
+                <div class="wrapper-header-content">
+                    <nav>
+                        <ul class="header-navigation">
+                            <li class="header-navigation__item"><a href="index.html">Главная</a></li>
+                            <li class="header-navigation__item"><a href="katalog.html">Каталог</a></li>
+                            <li class="header-navigation__item"><a href="professional.html">Для бизнеса</a></li>
+                            <li class="header-navigation__item"><a href="aboutus.html">О нас</a></li>
+                            <li class="header-navigation__item"><a href="contacts.html">Контакты</a></li>
+                            <li class="header-navigation__item"><button class="logoIcon popup_open3"></button></li>
+                        </ul>
+                    </nav>
+                    <div class="cellphone">+7 (903) 708-96-15</div>               
+                    <a href="#form"><button class="button">Оставить заявку</button></a>
+                </div>
+            </header>
+    </div>
+
+
+    <div class="section">
+<div class="aboutUsText">
+    <p>
+        Наши преимущества
+    </p>
+    <img src="img/professional.jpg" alt="">
+       <p> Мы предлагаем:
+
+        высокотехнологичный и качественный продукт, 
+        конкурентную цену на рынке,
+        широкое разнообразие моделей,
+        контроль над всей технологической цепочкой.
+        Выпуская большие объемы продукции и самостоятельно разрабатывая модели, мы экономим на масштабе производства. Это позволяет добиться невысокой цены товара, сохраняя его прекрасное качество.
+        
+        Современные технологии помогают выявить отклонения на самых ранних стадиях производства и, таким образом, избежать их в конечных продуктах Autobuy.
+        
+        Хорошее знание рынка даёт нам возможность выстроить выгодную для потребителя ценовую политику и сформировать сбалансированный ассортимент, объединяющий как проверенные популярные продукты, так и инновационные!
+        
+        Широкое разнообразие товаров позволяет потребителю произвести оснащение любого помещения с учетом всех его потребностей. Также возможна разработка индивидуальных решений, выполненных под заказ.
+        
+        Все кронштейны и стойки Autobuy произведены из современных и прочных материалов, отвечающих высоким требованиям эксплуатации.
+        
+        В своей деятельности мы привыкли следовать жестким экологическим нормам, что помогает избежать негативного влияния на окружающую среду.
+        
+        Autobuy – лучшее качество по привлекательной цене!</p>
+    
+</div>
+
+    </div>
+
+
+    <footer class="section">
+        <div class="textSecond textFooter"><p>Остались вопросы? Задайте их нам!</p></div>
+        <form id="form" class="formthirdpage" onsubmit="showPopUp1();return false;">
+            <div class="wrapperform">
+                <div class="formthirdpageitem">	
+                    <label>ФИО</label>
+                    <input required type="text" placeholder="Как Вас зовут:"/>
+                </div>
+                <div class="formthirdpageitem">
+                    <label>Телефон</label>
+                    <input required type="text" placeholder="Ваш номер телефона:"/>
+                </div>
+                <button  class="button submit popup_open1">Отправить</button>
+            </div>
+            <p class="checkboxthirdpagetext"><input required type="checkbox" name="option1" value="a1" checked/>Я даю согласие на обработку персональных данных</p>
+        </form>
+    </footer>
+    <!-- popup 1 -->
+    <div id="popup" class="popup popup1">
+        <div class="popup_body popup_body1">
+        <div class="popup_content popup_content1">
+            <button class="popup_close popup_close1">&#10006</button>
+    
+            <p>Спасибо! Наш менеджер свяжется с вами в течении одной минуты!</p>
+            </div>		
+        </div>
+        </div>
+        </div>
+
+    <!-- popup 2-->
+    
+    <div id="popup" class="popup popup2">
+        <div class="popup_body popup_body2">
+        <div class="popup_content popup_content2">
+            <button class="popup_close popup_close2">&#10006</button>
+            <p>Добавлено!</p>
+            </div>		
+        </div>
+        </div>
+        </div>
+   
+   <!-- popup 3-->
+
+<div id="popup" class="popup popup3">
+    <div class="popup_body popup_body3">
+    <div class="popup_content popup_content3">
+<div class="aboutUsText" style="width: 100%;">
+    <p style="margin: 0;color: #ffdf00;font-size: 1.25em; margin-bottom: 1vh;">
+        Регистрация
+    </p>
+</div>
+        
+
+<!-- форма регистрации-->        
+        <form id="formRegistration" class="formthirdpage" onsubmit="showPopUp3();return false;">
+            <button class="popup_close popup_close3" style="top: 0;">&#10006</button>
+            <div class="wrapperform" style="flex-direction: column;">
+                <div class="formthirdpageitem">	
+                    <label style="line-height: inherit;">ФИО</label>
+                    <input required type="text" placeholder="Как Вас зовут:"/>
+                </div>
+                <div class="formthirdpageitem">
+                    <label style="line-height: inherit;">Email</label>
+                    <input required type="text" placeholder="Ваш номер телефона:"/>
+                </div>
+                <button style="margin-top: 2vh;" class="button submit">Зарегистрироваться</button>
+            </div>
+            <p class="checkboxthirdpagetext"><input required type="checkbox" name="option1" value="a1" checked/>Я даю согласие на обработку персональных данных</p>
+        </form>
+
+            </div>		
+        </div>
+        </div>
+        </div>
+
+    </div>
+    </body>
+</html>

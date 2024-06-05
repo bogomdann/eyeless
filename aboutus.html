@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    <script async type="text/javascript" src="script.js"></script>
+    <script async type="text/javascript" src="scriptPopup.js"></script>
+    <script async type="text/javascript" src="scriptPopup2.js"></script>
+    <script async type="text/javascript" src="scriptPopupReg.js"></script>
+    <style>
+		@font-face {
+			font-family: Oswald;
+			src: url("fonts/Oswald.ttf");
+		}
+	</style>
+    <title>Магазин "Autobuy"</title>
+</head>
+<body>
+    <div class="wrapper">
+            <div class="announcment">
+                <div class="logo"><img src="img/logo.png"></div>
+            </div>
+            <header class="header">
+                <div class="wrapper-header-content">
+                    <nav>
+                        <ul class="header-navigation">
+                            <li class="header-navigation__item"><a href="index.html">Главная</a></li>
+                            <li class="header-navigation__item"><a href="katalog.html">Каталог</a></li>
+                            <li class="header-navigation__item"><a href="professional.html">Для бизнеса</a></li>
+                            <li class="header-navigation__item"><a href="aboutus.html">О нас</a></li>
+                            <li class="header-navigation__item"><a href="contacts.html">Контакты</a></li>
+                            <li class="header-navigation__item"><button class="logoIcon popup_open3"></button></li>
+                        </ul>
+                    </nav>
+                    <div class="cellphone">+7 (903) 708-96-15</div>               
+                    <a href="#form"><button class="button">Оставить заявку</button></a>
+                </div>
+            </header>
+    </div>
+
+
+    <div class="section">
+<div class="aboutUsText">
+    <p>
+        О нас
+    </p>
+    <img src="img/aboutUs1.jpg" alt="">
+       <p> Миссия Autobuy – улучшать качество жизни, создавая комфортную и уютную среду для отдыха и работы, и помогать компаниям повышать клиентский опыт в шоу-румах, рознице, в сфере обслуживания и на транспортных узлах.
+
+        Современный мир характеризуется стремительным развитием информационных технологий, лавинообразным созданием цифровых интерфейсов и всевозможного контента, 90% которого появилось за последние 2 года.
+        
+        Нас окружает все большее количество дисплеев и цифровых поверхностей − за последние 7 лет было продано и установлено более 50% текущего парка всех телевизоров и панелей. За последние 10 лет размер диагонали используемой панели удвоился.
+        
+        В современных домах зачастую установлено по несколько телевизоров. В офисах нередко можно встретить сотрудников, использующих два и более монитора за одним столом. Вместо проекторов стали широко применяться большие LED – панели. Рабочие командировки с тратой времени уступают место видеоконференцсвязи.
+        
+        Мы встречаем экраны и мониторы в гостиницах, ресторанах, магазинах одежды - розница переходит от традиционных бумажных постеров к электронной рекламе. Все возрастающее количество экранов используется в интерфейсах обслуживания гостей и потребителей - в центрах документов, в системах электронной очереди, на ресепшенах отелей.
+        
+        Информации вокруг настолько много, что становится очевидным − для улучшения восприятия процесс получения сообщений должен быть максимально комфортным.
+        
+        Компания Autobuy как признанный эксперт в этой области предлагает лучшее решение для достижения этого результата. Наши продукты умножают эффект от просмотра, помогают лучше усвоить воспринимаемую информацию и делают процесс потребления контента в высшей степени приятным.
+        
+        Вы сможете наиболее удобным для себя образом разместить в любом пространстве телевизор, монитор или digital-панель – закрепив их на рабочий стол, повесив на стену или потолок, или установив на мобильную стойку.
+        
+        Наша работа направлена на достижение совершенства в обслуживании наших клиентов. Мы стараемся учесть интересы вашего бизнеса и при помощи нашей продукции максимально раскрыть функциональность вашей электроники.
+        
+        Мы встаем на место наших покупателей, думаем и мыслим как они. Это позволяет нам лучше понимать потребности и исполнять желания наших клиентов, будь то комфортный просмотр телевизора дома, представление на экране сложных бизнес-процессов в офисе, трансляция развлекательного контента в ТЦ или воплощение художественной идеи в мастерской дизайнера.
+        
+        Поэтому при разработке продукции мы продумываем дополнительные функции, обращаем внимание на детали, используем оригинальные решения. Мы чутко относимся к запросам нашего потребителя и всегда готовы предложить варианты, которые придутся по вкусу даже самым притязательным клиентам.
+        
+        Команда Autobuy трудится над созданием и продвижением на рынок исключительно качественных и высокотехнологичных товаров. В этом отношении мы не ищем компромиссов. Мы производим продукты, полезные обществу, и создаем то, чем можем гордиться сами.
+    </p>
+    
+</div>
+
+    </div>
+
+
+    <footer class="section">
+        <div class="textSecond textFooter"><p>Остались вопросы? Задайте их нам!</p></div>
+        <form id="form" class="formthirdpage" onsubmit="showPopUp1();return false;">
+            <div class="wrapperform">
+                <div class="formthirdpageitem">	
+                    <label>ФИО</label>
+                    <input required type="text" placeholder="Как Вас зовут:"/>
+                </div>
+                <div class="formthirdpageitem">
+                    <label>Телефон</label>
+                    <input required type="text" placeholder="Ваш номер телефона:"/>
+                </div>
+                <button  class="button submit popup_open1">Отправить</button>
+            </div>
+            <p class="checkboxthirdpagetext"><input required type="checkbox" name="option1" value="a1" checked/>Я даю согласие на обработку персональных данных</p>
+        </form>
+    </footer>
+    <!-- popup 1 -->
+    <div id="popup" class="popup popup1">
+        <div class="popup_body popup_body1">
+        <div class="popup_content popup_content1">
+            <button class="popup_close popup_close1">&#10006</button>
+    
+            <p>Спасибо! Наш менеджер свяжется с вами в течении одной минуты!</p>
+            </div>		
+        </div>
+        </div>
+        </div>
+ 
+    <!-- popup 2-->
+    
+    <div id="popup" class="popup popup2">
+        <div class="popup_body popup_body2">
+        <div class="popup_content popup_content2">
+            <button class="popup_close popup_close2">&#10006</button>
+            <p>Добавлено!</p>
+            </div>		
+        </div>
+        </div>
+        </div>
+
+    <!-- popup 3-->
+
+<div id="popup" class="popup popup3">
+    <div class="popup_body popup_body3">
+    <div class="popup_content popup_content3">
+<div class="aboutUsText" style="width: 100%;">
+    <p style="margin: 0;color: #ffdf00;font-size: 1.25em; margin-bottom: 1vh;">
+        Регистрация
+    </p>
+</div>
+        
+
+<!-- форма регистрации -->        
+        <form id="formRegistration" class="formthirdpage" onsubmit="showPopUp3();return false;">
+            <button class="popup_close popup_close3" style="top: 0;">&#10006</button>
+            <div class="wrapperform" style="flex-direction: column;">
+                <div class="formthirdpageitem">	
+                    <label style="line-height: inherit;">ФИО</label>
+                    <input required type="text" placeholder="Как Вас зовут:"/>
+                </div>
+                <div class="formthirdpageitem">
+                    <label style="line-height: inherit;">Email</label>
+                    <input required type="text" placeholder="Ваш номер телефона:"/>
+                </div>
+                <button style="margin-top: 2vh;" class="button submit">Зарегистрироваться</button>
+            </div>
+            <p class="checkboxthirdpagetext"><input required type="checkbox" name="option1" value="a1" checked/>Я даю согласие на обработку персональных данных</p>
+        </form>
+
+            </div>		
+        </div>
+        </div>
+        </div>
+
+    </div>
+    </body>
+</html>
