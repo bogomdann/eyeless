@@ -566,7 +566,7 @@ margin: 3%;
 
 	@media (min-width: 300px) and (max-width: 500px) {
 		.header-navigation__item{
-			font-size: 15px;
+			font-size: 13px;
 		}
 		.header-navigation__item:nth-of-type(1) {
 			display: none;
