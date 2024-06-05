@@ -1,3 +1,4 @@
+alert("YA MORKOV")
 var prev = document.querySelector('.previous');
 var next = document.querySelector('.next');
 var first = document.querySelector('.sliderImage:nth-child(1)');
